@@ -1,0 +1,13 @@
+vim.cmd("set number")
+--vim.cmd("set relativenumber")
+vim.cmd("syntax on")
+vim.cmd("set guicursor=n-v-c-i:block")
+vim.cmd("set cursorcolumn")
+vim.cmd("set cursorline")
+vim.cmd("set clipboard^=unnamed,unnamedplus")
+vim.cmd("set expandtab")
+vim.cmd("set tabstop=4")
+vim.cmd("set shiftwidth=4")
+vim.cmd("set smartcase")
+vim.keymap.set('v', '<C-c>', 'y')
+vim.g.mapleader = " "
