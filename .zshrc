@@ -65,6 +65,11 @@ bindkey -v '^?' backward-delete-char
 setopt hist_ignore_all_dups
 alias ls='eza'
 alias ll='eza -lah'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
 alias grep='grep --color=auto'
 alias rm='rm -fv'
 alias mv='mv -i'
