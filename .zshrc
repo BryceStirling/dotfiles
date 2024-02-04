@@ -63,8 +63,8 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
 setopt hist_ignore_all_dups
-alias ls='exa'
-alias ll='exa -lah'
+alias ls='eza'
+alias ll='eza -lah'
 alias grep='grep --color=auto'
 alias rm='rm -fv'
 alias mv='mv -i'
