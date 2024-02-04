@@ -63,13 +63,27 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
 
 setopt hist_ignore_all_dups
+
+#ls aliases
 alias ls='eza'
 alias ll='eza -lah'
+alias la='eza -a '
+alias lt='eza -aT' 
+alias l.='eza -a | egrep "^\."'
+
+#grep aliases
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+#cd aliases
 alias ..='cd ..'
 alias ...='cd ../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
+
+#misc aliases
 alias sudo='doas --'
 alias grep='grep --color=auto'
 alias rm='rm -fv'
